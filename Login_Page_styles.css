@@ -1,0 +1,31 @@
+header
+{
+    background: white;
+    padding: 20px;
+    margin: 15px;
+}
+body
+{
+    background-color: #F0F8FF;
+    padding: 20px;
+}
+header > h1
+{
+    margin-left: 37px;
+    margin-right: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    height: 5px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+}
+.login_box
+{
+    background: #F5F5DC;
+    
+}
+
