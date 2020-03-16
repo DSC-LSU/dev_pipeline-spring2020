@@ -1,29 +1,62 @@
 <!DOCTYPE html>
+
 <html>
+    
     <head>
         <meta charset="utf-8">
         <title>DSC Volunteer</title>
         <link rel="stylesheet" href="Login_Page_styles.css">
+    </head>    
+    
     <body>
+        
         <header>
             <h1>DSC LSU Login Page</h1>
         </header>
-            <div class="login_box" id="body"> 
-                <div class="login_box" id="box">
-                    <div class="login_box" id="title">
+            
+        <div class="login_box" id="box">  
+                    
+            <div class="login_box" id="login_title">
                         DSC Login Portal
-                        <div class="login_box" id="logo">
-                        <form action="/Username_and_Password" class="action">
-                            <input type="text" placeholder="Username" required><br>
-                            <input type="text" placeholder="Password" required><br>
-                            <label><input type="checkbox" name="login_option">Remember Password</label>
-                            <button>Login</button>   
-                        </form>
-                    </div>
-                </div>
-                <a href="null">Forgot Username</a> 
-                <a href="null">Forgot Password</a>
-            </div>
+           </div>    
+                     
+                    <div class="login">
+                        <form autocomplete="off" action="Username_and_Password" class="action">
+                            <div class="login_form">
+                            
+                                <div class="username">
+                                    <label id="username_label" for="username_box">Your Username:</label>
+                                    <input id="username_box" type="text" placeholder="DSC Username" required><br>
+                                </div>    
+                                <div class="password">   
+                                    <label id="password_label" for="password_box">Your Password:</label>
+                                    <input id="password_box" type="text" placeholder="DSC Password" required><br>
+                                </div>
+                            
+                            </div>    
+                            <div class="login_option">
+                                
+                                <div class="login_option" id="remember_password">      
+                                
+                                    <label><input type="checkbox" name="login_option">Remember Password</label>
+                            
+                                </div>  
+                        
+                                <div class="login_option" id="login_button">
+
+                                    <button>Sign Up</button>  
+
+                                </div>
+
+                            </div>
+                        </form>    
+                    </div>    
+
+                <a id="forgot_username" href="null">Forgot Username?</a> 
+                <a id="forgot_password" href="null">Forgot Password?</a>
+        
         </div>
+   
     </body>
+
 </html>
