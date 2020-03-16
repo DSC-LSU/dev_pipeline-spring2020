@@ -13,6 +13,8 @@ body
 .login_box
 {
     background: #F5FFFA;
+    margin-bottom: 10px;
+    width: 100%;
 }
 #login_title
 {
@@ -36,10 +38,11 @@ body
     border-radius: 2px;
     height: 30px;
     line-height: 1.6;
-    width: 15%;
+    width: 16%;
     margin-bottom: 4px;
     padding-left: 6px;
     padding-right: 10px;
+    cursor: auto;
 }
 .password
 {
@@ -55,10 +58,11 @@ body
     border-radius: 2px;
     height: 30px;
     line-height: 1.6;
-    width: 15%;
+    width: 16%;
     margin-top: 4px;
     padding-left: 6px;
     padding-right: 10px;
+    cursor: auto; 
 }
 #username_label
 {
@@ -68,26 +72,63 @@ body
 {
     padding-right: 8px;
 }
-.login_option
+.login_options
 {
     text-align: center;
     margin-top: 13px;
     margin-bottom: 7px;
     padding-top: 1px;
 }
+#checkbox
+{
+    height: 25px;
+    width: 25px;
+}
 #remember_me
 {
     padding-left: 4px;
+}
+#login_button:hover
+{
+    background: #4169E1;
 }
 #login_button
 {
     border: transparent;
     border-style: solid;
     border-radius: 4px;
-    background: #4169E1;
+    background: #1E90FF;
     color: white;
     width: 15%;
     height: 30px;
     margin-top: 10px;
     margin-left: 3px;
+    cursor: pointer;
 }
+.forgot_buttons
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24px;
+    width: 15%;
+}
+#forgot_username
+{
+    margin-right: 10px;
+    border: transparent;
+    border-style: solid;
+    border-radius: 4px;
+    background: #FFA500;
+    color: white;
+}
+#forgot_password
+{
+    margin-left: 10px;
+    border: transparent;
+    border-style: solid;
+    border-radius: 4px;
+    background: #FFA500;
+    color: white;
+}
+
