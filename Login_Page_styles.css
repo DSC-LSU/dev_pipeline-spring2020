@@ -38,7 +38,7 @@ body
     border-radius: 2px;
     height: 30px;
     line-height: 1.6;
-    width: 16%;
+    width: 17%;
     margin-bottom: 4px;
     padding-left: 6px;
     padding-right: 10px;
@@ -58,7 +58,7 @@ body
     border-radius: 2px;
     height: 30px;
     line-height: 1.6;
-    width: 16%;
+    width: 17%;
     margin-top: 4px;
     padding-left: 6px;
     padding-right: 10px;
@@ -78,6 +78,7 @@ body
     margin-top: 13px;
     margin-bottom: 7px;
     padding-top: 1px;
+    border-bottom: 1px solid black;
 }
 #checkbox
 {
@@ -99,36 +100,50 @@ body
     border-radius: 4px;
     background: #1E90FF;
     color: white;
-    width: 15%;
+    width: 17%;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-left: 3px;
+    margin-bottom: 34px;
     cursor: pointer;
 }
 .forgot_buttons
 {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: space-evenly;
     justify-content: center;
-    margin-top: 24px;
-    width: 15%;
+    margin-top: 30px;
+    padding-bottom: 24px;
 }
 #forgot_username
 {
-    margin-right: 10px;
+    display: flex;
     border: transparent;
     border-style: solid;
     border-radius: 4px;
     background: #FFA500;
     color: white;
+    width: 90%;
+    margin-right: 15px;
 }
 #forgot_password
 {
-    margin-left: 10px;
+    display: flex;
     border: transparent;
     border-style: solid;
     border-radius: 4px;
     background: #FFA500;
     color: white;
+    width: 90%;
+    margin-left: 15px;
 }
-
+.remember
+{
+    position: relative;
+    text-align: center;
+    color: #A9A9A9;
+    bottom: -10px;
+    background: #F5FFFA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
