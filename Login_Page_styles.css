@@ -107,6 +107,20 @@ body
     margin-bottom: 34px;
     cursor: pointer;
 }
+#newacc_button
+{
+    border: transparent;
+    border-style: solid;
+    border-radius: 4px;
+    background: #1E90FF;
+    color: white;
+    width: 17%;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 3px;
+    margin-bottom: 34px;
+    cursor: pointer;
+}
 .forgot_buttons
 {
     display: flex;
