@@ -5,13 +5,12 @@
     
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"/> -->
         <title>DSC Volunteer</title>
         <link rel="stylesheet" href="Login_Page_styles.css">
     </head>    
     
     <body> 
-        <form action="/Username_and_Password" mothod="post">
         <div class="login_box" id="box">  
                  
             <div class="login_box" id="login_title">
@@ -25,7 +24,7 @@
                                 <div class="username" >
                                     <label id="username_label" for="username_box">Username:</a></label>
                                     <input id="username_box" type="text" placeholder="DSC Username" required><br>
-                                    <div id = "login_react"></div> 
+                                    <!-- <div id = "login_react"></div>  -->
                                 </div>    
                                 
                                 <div class="password">   
@@ -42,8 +41,8 @@
                                 </div>							
 								
                                 <div class="button">
-                                    <!-- <button id="login_button">Sign In</button>   -->
-                                    <input id = "login_button" type="submit" value="Sign In">
+                                    <button id="login_button">Sign In</button>  
+                                    <!-- <input id = "login_button" type="submit" value="Sign In"> -->
                                 </div>
 
                                 <span id="span1"><b>Don't Remember?</b></span>
@@ -71,11 +70,11 @@
                     </div>  
                 </div>
         </div>
-    </form>
+   
 
-        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-        <script scr = "react_login.js"></script>
+        <script scr = "react_login.js"></script> -->
     </body>
 
 </html>
