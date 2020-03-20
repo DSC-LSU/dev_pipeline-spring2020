@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>DSC Volunteer</title>
+        <link rel="stylesheet" href="Login_Page_styles.css">
+    </head>    
+    
+    <body> 
+        <form action="/Username_and_Password" mothod="post">
+        <div class="login_box" id="box">  
+                 
+            <div class="login_box" id="login_title">
+                <b>DSC Login Portal</b>
+           </div>    
+                     
+                    <div class="login">
+                        <form autocomplete="off" action="Username_and_Password" class="action">
+                            <div class="login_form">
+                            
+                                <div class="username" >
+                                    <label id="username_label" for="username_box">Username:</a></label>
+                                    <input id="username_box" type="text" placeholder="DSC Username" required><br>
+                                    <div id = "login_react"></div> 
+                                </div>    
+                                
+                                <div class="password">   
+                                    <label id="password_label" for="password_box">Password:</label>
+                                    <input id="password_box" type="password" placeholder="DSC Password" required><br>
+                                </div>
+                            
+                            </div>    
+                            <div class="login_options">
+                                
+                                <div class="remember_me_box">     
+                                    <label id="checkbox"><input type="checkbox" name="login_option"></label>
+                                    <span id="remember_me">Remember Me</span>
+                                </div>							
+								
+                                <div class="button">
+                                    <!-- <button id="login_button">Sign In</button>   -->
+                                    <input id = "login_button" type="submit" value="Sign In">
+                                </div>
+
+                                <span id="span1"><b>Don't Remember?</b></span>
+
+                            </div>
+                        </form>
+                    </div>
+
+				
+               
+                <div class="forgot_buttons">   
+                    <div class="forgot_username">
+                        <a id="anchorUsername" href="req_username.html"><button id="forgot_username">Forgot Username?</button></a> 
+                    </div>
+
+                    <div class="forgot_password">
+                        <a id="anchorPassword" href="req_password.html"><button id="forgot_password">Forgot Password?</button></a>
+                    </div>
+                </div>  
+
+                <div class="create_account_option">
+                    <span id="span2"><b>New to DSC Volunteer?</b></span>
+                    <div class="button">
+                        <a href="create_account.html"><button id="newacc_button">Create Account</button></a>
+                    </div>  
+                </div>
+        </div>
+    </form>
+
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script scr = "react_login.js"></script>
+    </body>
+
+</html>

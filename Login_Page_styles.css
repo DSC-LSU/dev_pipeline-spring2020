@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #F0F8FF;
+    padding: 20px;
+}
+.login_box
+{
+    background: #F5FFFA;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#login_title
+{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    font-family: Varela, Helvetica, sans-serif;
+}
+.username
+{
+    text-align: center;
+    font-size: 15px;
+    margin-right: 68px;
+}
+#username_box
+{
+    border: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 1.6;
+    width: 17%;
+    margin-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 10px;
+    cursor: auto;
+}
+.password
+{
+    text-align: center;
+    font-size: 15px;
+    margin-right: 68px;
+}
+#password_box
+{
+    border: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 1.6;
+    width: 17%;
+    margin-top: 4px;
+    padding-left: 6px;
+    padding-right: 10px;
+    cursor: auto; 
+}
+#username_label
+{
+    padding-right: 5px;
+}
+#password_label
+{
+    padding-right: 8px;
+}
+.login_options
+{
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 7px;
+    padding-top: 1px;
+    border-bottom: 1px solid #808080;
+}
+#checkbox
+{
+    height: 25px;
+    width: 25px;
+}
+#remember_me
+{
+    padding-left: 4px;
+}
+#login_button:hover
+{
+    background: #4169E1;
+}
+#login_button
+{
+    border: transparent;
+    border-style: solid;
+    border-radius: 4px;
+    background: #1E90FF;
+    color: white;
+    width: 17%;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 3px;
+    margin-bottom: 24px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+#span1
+{
+    position: relative;
+    background: #F5FFFA;
+    color: #696969;
+    text-align: center;
+    top: 10px;
+    left: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.forgot_buttons
+{
+    display: flex;
+    flex-direction: space-evenly;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 13px;
+    padding-bottom: 24px;
+}
+#forgot_username:hover
+{
+    background: #FF8C00;
+}
+#forgot_username
+{
+    display: flex;
+    border: transparent;
+    border-style: solid;
+    border-radius: 4px;
+    background: #FFA500;
+    color: white;
+    height: 37px;
+    width: 90%;
+    margin-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+#anchorUsername
+{
+    text-decoration: none;
+}
+#forgot_password:hover
+{
+    background: #FF8C00;
+}
+#forgot_password
+{
+    display: flex;
+    border: transparent;
+    border-style: solid;
+    border-radius: 4px;
+    background: #FFA500;
+    color: white;
+    height: 37px;
+    width: 90%;
+    margin-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+#anchorPassword
+{
+    text-decoration: none;
+}
+.remember
+{
+    position: relative;
+    text-align: center;
+    color: #A9A9A9;
+    bottom: -10px;
+    background: #F5FFFA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#span2
+{
+    position: relative;
+    background: #F5FFFA;
+    color: #696969;
+    text-align: center;
+    bottom: 10px;
+    left: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.create_account_option
+{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 13px;
+    padding-bottom: 1px;
+    border-top: 1px solid #808080;
+}
+#newacc_button:hover
+{
+    background: #228B22;
+}
+#newacc_button
+{
+    border: transparent;
+    border-style: solid;
+    border-radius: 4px;
+    background: #32CD32;
+    color: white;
+    width: 17%;
+    height: 30px;
+    margin-top: 24px;
+    margin-left: 3px;
+    margin-bottom: 34px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
