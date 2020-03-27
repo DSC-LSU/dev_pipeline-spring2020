@@ -1,34 +1,113 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-.btn {
-  background-color: DodgerBlue;
+  @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+
+  .title
+  {
+    text-align: center;
+    position: relative;
+    left: 3px;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    font-size: 28px;
+    font-family: Merriweather, Helvetica, sans-serif;
+  }
+  .menu
+  {
+    width: 400px;
+    height: 295px;
+    margin: auto;
+    box-shadow: 0 0 15px #DCDCDC;
+  }
+  .buttons
+  {
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .btn1
+  {
+  background-color: #9400D3;
   border: none;
+  border-radius: 3px;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
-}
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
-}
+  }
+  .btn1:hover 
+  {
+    background-color: #800080;
+    transition-duration: .5s;
+  }
+  .btn2
+  {
+  background-color: #9400D3;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  }
+  .btn2:hover 
+  {
+    background-color: #800080;
+    transition-duration: .5s;
+  }
+  .text
+  {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-family: Merriweather Sans, Helvetica, sans-serif;
+  }
+  #span1
+  {
+    text-align: center;
+    position: relative;
+    left: 94px;
+    top: 40px;
+  }
+  #span2
+  {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    top: 100px;
+  }
 </style>
-</head>
-<body>
 
-<h2>Style Download Buttons</h2>
+<!DOCTYPE html>
 
-<a href = "https://i.kym-cdn.com/photos/images/newsfeed/001/719/480/0ec.png" download><button class="btn"><i class="fa fa-download"></i> Download 3</button></a>
-<p></p>
-<a href = "https://media.8kun.top/file_store/thumb/77bedeb9f6d4b1a25bb577f2a57a1e79b9939e19cac5acff2abe45e32fe090de.jpg" download><button class="btn"><i class="fa fa-download"></i> Download 3</button></a>
-<p></p>
-<a href = "https://pm1.narvii.com/7489/b13c9017227db36003018a99eaffe26b8fc07d91r1-1920-1080v2_uhq.jpg" download><button class="btn"><i class="fa fa-download"></i> Download 3</button></a>
+<html>
 
-</body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+
+    <header class="title"><b>DSC Kit Downloads</b></header>
+  
+    <div class="menu">
+      <span class="text" id="span1"><b>Click to download kit</b></span>
+      <div class="buttons"> 
+        <div class="FrontDev">
+          <a href = "https://i.kym-cdn.com/photos/images/newsfeed/001/719/480/0ec.png" download><button class="btn1">FrontDev Kit</button></a>
+        </div>
+        <div class="BackDev">  
+          <a href = "https://media.8kun.top/file_store/thumb/77bedeb9f6d4b1a25bb577f2a57a1e79b9939e19cac5acff2abe45e32fe090de.jpg" download><button class="btn2">BackDev Kit</button></a>
+        </div>
+      </div>
+      <span class="text" id="span2"><b>If you're in frontend then click "FrontDev", and if you're in backend then click "BackDev"</b></span>
+    </div>
+
+  </body>
+
 </html>
