@@ -1,0 +1,8 @@
+deploy:
+  provider: gce
+  keyfile: advance-honor-268402-a9d87e147725.json
+  project: 
+before_install:
+- openssl aes-256-cbc -K $encrypted_ecfedfcc5632_key -iv $encrypted_ecfedfcc5632_iv
+  -in advance-honor-268402-a9d87e147725.json.enc -out advance-honor-268402-a9d87e147725.json
+  -d
