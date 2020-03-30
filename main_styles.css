@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #F0F8FF;
+    padding: 20px;
+}
+.scroller {
+	display: flex;
+	background-color: #F0F8DD;
+	min-width: 100%;
+	min-height: 200px;
+	overflow-x: auto;
+}
+.event--content
+{
+	background-color: #8abcbd;
+	min-width: 200px;
+	margin: 5px;
+}
+.title
+{
+	text-decoration: none;
+}
+.image
+{
+	
+}
